@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Organix</title>
+    <link rel="shortcut icon" href="images/favicon-organix.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <div id="container">
+
+        <!--Homepage content-->
+
+        <div id="home">
+            <header class="header">
+                <a href="#home" id="header__a">
+                    <img src="images/logo-organix.png" alt="" id="header__logo">
+                </a>
+                <ul id="header__list">
+                    <li><a href="#home" class="header__list__text">Início</a></li>
+                    <li><a href="#sobre" class="header__list__text">Sobre</a></li>
+                    <li><a href="#solucoes" class="header__list__text">Soluções</a></li>
+                    <li><a href="#beneficios" class="header__list__text">Benefícios</a></li>
+                    <li><a href="#contato" class="header__list__text">Contato</a></li>
+                </ul>
+                <span id="header__burguer" class="material-symbols-rounded" onclick="clickMenu()">
+                    menu
+                </span>
+            </header>
+            <div id="menu__burguer">
+                <a href="#home" class="menu__burguer__a">Início</a>
+                <a href="#sobre" class="menu__burguer__a">Sobre</a>
+                <a href="#solucoes" class="menu__burguer__a">Soluções</a>
+                <a href="#beneficios" class="menu__burguer__a">Benefícios</a>
+                <a href="#contato" class="menu__burguer__a">Contato</a>
+            </div>
+            <div id="homepage">
+                <h1>Seu parceiro para um futuro mais
+                    <div class="text-wrapper">
+                        <div class="box b1">Saudável</div>
+                        <div class="box b2">Sustentável</div>
+                        <div class="box b3">Viavél</div>
+                        <div class="box b4">Confiável</div>
+                        <div class="box b5">Responsável</div>
+                    </div>
+                </h1>
+                <p><a id="homepage__sabermais" href="#sobre">Saber mais</a></p>
+            </div>
+        </div>
+
+        <!--About content-->
+
+        <div id="sobre">
+            <h1>Sobre</h1>
+            <div id=sobre__text>
+                <p>Somos a <strong>Organix</strong>, uma empresa que busca uma ambiente para agricultura mais saudável,
+                    visando o rodízio
+                    de culturas.</p>
+                <p>Nossa empresa utiliza adubos <strong>naturais</strong> e também inseticidas biológicos para evitar o
+                    contaminamento
+                    dos funcionários como do plantio.</p>
+                <sr>
+                    <p>Fazendo uso dessas práticas, há uma contribuição para um solo mais <strong>saudável</strong> para
+                        todos, sendo capaz
+                </sr>
+                de atender as necessidades de cultivo sem comprometer as gerações futuras.</p>
+            </div>
+        </div>
+
+        <!--Solutions content-->
+
+        <div id="solucoes">
+            <h1>Soluções</h1>
+            <div id="solucoes__01">
+                <img src="images/drone.jpg" alt="drone">
+                <div id="solucoes__01__text">
+                    <h1>Drone fertilizante</h1>
+                    <p>O drone fertilizante tem como objetivo mapear o terreno fazendo uso da sua autonomia como também
+                        fertilizar e distribuir água o suficiente para todo o plantio, visando o mínimo de desperdício.
+                    </p>
+                </div>
+            </div>
+            <div id="solucoes__02">
+                <img src="images/transferir.avif" alt="drone-esfera">
+                <div id="solucoes__02__text">
+                    <h1>Protótipo Esfera</h1>
+                    <p>O prototipo esfera tem como objedivo detectar a fertilidade, Matéria orgânica, umidade,
+                        temperatura, PH, bactéria e entre outros do plantio. Equipado com duas camaras de monitoramento
+                        para visualização do terreno
+                    </p>
+                </div>
+            </div>
+            <div id=solucoes__03>
+                <img src="images/farmerdrone2.jpg" !lt="controlling drone">
+                <div id="solucoes__03__text">
+                    <h1>Nosso software</h1>
+                    <p>
+                        O nosso software é interligado entre os drones. Todos os drones que estão conectados ao sistema
+                        tem o objetivo de enviar os dados coletados de duas em duas horas para o software.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!--Benefits content-->
+
+        <div id="beneficios">
+            <h1>Benefícios</h1>
+            <div id="beneficios__content">
+                <div class="beneficios__content__info">
+                    <section class="beneficios__info__img">
+                        <img src="images/agrotoxic.png" alt="">
+                    </section>
+                    <p>Redução da utilização de agrotóxicos.</p>
+                </div>
+                <div class="beneficios__content__info">
+                    <section class="beneficios__info__img">
+                        <img src="images/water.png" alt="">
+                    </section>
+                    <p>Disperdício Minímo de água.</p>
+                </div>
+                <div class="beneficios__content__info">
+                    <section class="beneficios__info__img">
+                        <img src="images/sustainable.png" alt="">
+                    </section>
+                    <p>Agricultura sustentável</p>
+                </div>
+                <div class="beneficios__content__info">
+                    <section class="beneficios__info__img">
+                        <img src="images/food.png" alt="">
+                    </section>
+                    <p>Alimentos livres de agrotóxicos.</p>
+                </div>
+                <div class="beneficios__content__info">
+                    <section class="beneficios__info__img">
+                        <img id="world" src="images/sustainable_world.webp" alt="">
+                    </section>
+                    <p>Um planeta mais saudável.</p>
+                </div>
+            </div>
+        </div>
+
+        <!--ContactUs content-->
+
+        <div id="contato">
+            <div id="contato__content">
+                <img id="contato__content__logo" src="images/logo-organix.png" alt="">
+                <h1>Entre em contato conosco</h1>
+                <div id="contato__content__text">
+                    <div id="contato__content__text__left">
+                        <h1>Endereços</h1>
+                        <p>3783 Benedum Drive.</p>
+                        <p>3518 Pinnickinnick Street.</p>
+                        <p>UNIP - Marques</p>
+                        <p>2012 Lakeland Terrace.</p>
+                    </div>
+                    <div id="contato__content__text__right">
+                        <h1>E-mail</h1>
+                        <p>organixcompany@gmail.com</p>
+                        <p id="contato__content__text__right__button">Nos contate</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Copyright content-->
+
+        <div id="copyright">
+            <div id="copyright__content">
+                <p>Copyright© 2023 by Organix Agricultura.</p>
+                <h1>O USO DESTE SITE É REGIDO PELOS TERMOS DE USO. O CONTEÚDO DESTE SITE É FORNECIDO AOS USUÁRIOS "COMO
+                    ESTÁ" SEM QUALQUER GARANTIA EXPRESSA OU IMPLÍCITA. PARA INFORMAÇÕES SOBRE SUA PRIVACIDADE, <strong>
+                        LEIA
+                        NOSSA POLÍTICA DE PRIVACIDADE
+                    </strong></h1>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
